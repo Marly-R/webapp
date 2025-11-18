@@ -1,6 +1,7 @@
 // app.js
 //const API_URL = "http://localhost:5000/api/operacion"; // Cambiar a la IP pública cuando subas a AWS
-const API_URL = "http://3.234.41.31:5000/api/operacion";
+//const API_URL = "http://3.234.41.31:5000/api/operacion";
+const API_URL = "http://3.234.41.31/api/operacion";
 
 function safeEval(expr) {
   if (!/^[0-9+\-*/().\s]+$/.test(expr)) 
@@ -80,3 +81,4 @@ function showAlert(msg) {
       <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
     </div>`;
 }
+
